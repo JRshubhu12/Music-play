@@ -1,0 +1,106 @@
+.box {
+    width: 360px;
+    height: 640px;
+}
+
+.box .rectangle {
+    position: fixed;
+    width: 360px;
+    height: 640px;
+    top: 0;
+    left: 0;
+    background-color: rgba(182, 144, 144, 1), rgba(25, 249, 74, 0.82);
+}
+.box {
+    width: 150px;
+    height: 163px;
+}
+
+.box .star {
+    position: fixed;
+    width: 75px;
+    height: 86px;
+    top: 0;
+    left: 0;
+}
+.box1 {
+    width: 150px;
+    height: 163px;
+}
+
+.box1 .star1 {
+    position: fixed;
+    width: 88px;
+    height: 86px;
+    top: 0;
+    left: 20%;
+    transform: rotate(90deg);
+}
+.box2 {
+    width: 150px;
+    height: 163px;
+}
+
+.box2 .star2 {
+    position: fixed;
+    width: 82px;
+    height: 102px;
+    top: 85%;
+    left: 0;
+    transform: rotate(-90deg);
+}
+.box3 {
+    width: 150px;
+    height: 163px;
+}
+
+.box3 .star3 {
+    position: fixed;
+    width: 83px;
+    height: 109px;
+    top: 85%;
+    right: 73%;
+    transform: rotate(-180deg);
+}
+.label {
+    width: 228px;
+    height: 180px;
+}
+
+.label .welcome-to-lika-play {
+    position: fixed;
+    width: 203px;
+    height: 165px;
+    top: 20%;
+    left: 5%;
+}
+/* Get started */
+button {
+	position: fixed;
+	top: 70%;
+	left: 5%;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
